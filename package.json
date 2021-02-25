@@ -12,6 +12,7 @@
     "build:dev": "rimraf dist && webpack --config ./config/webpack.dev.js",
     "build:prod": "rimraf dist && webpack --config ./config/webpack.prod.js",
     "build:perf": "rimraf dist && webpack --config ./config/webpack.perf.js",
+    "build": "run-p -l type-check build:prod",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],

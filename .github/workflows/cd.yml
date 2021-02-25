@@ -23,6 +23,6 @@ jobs:
       - name: Install
         run: npm install
       - name: Build
-        run: npm run build:prod
+        run: npm run build
       - name: Deploy
         run: npm run deploy -- -r git@github.com:<owner>/<repository-name>.git
