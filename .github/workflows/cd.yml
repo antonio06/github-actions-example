@@ -17,8 +17,8 @@ jobs:
           sudo chmod 600 ~/.ssh/id_rsa
       - name: Git config
         run: |
-          git config --global user.email "cd-antonioContreras@my-app.com"
-          git config --global user.name "cd-antonioContreras"
+          git config --global user.email "cd-user@my-app.com""
+          git config --global user.name "cd-user"
       - name: Install
         run: npm install
       - name: Build
