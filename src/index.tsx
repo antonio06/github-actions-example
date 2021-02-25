@@ -6,7 +6,7 @@ const classes = require("./myStyles.scss");
 
 ReactDOM.render(
   <div>
-    <h1 className={classes.title}>Hello World people</h1>
+    <h1 className={classes.title}>Hello World people to react</h1>
     <span>Env url: {process.env.API_BASE}</span>
     <ImgComponent />
     <TypeComponent />
